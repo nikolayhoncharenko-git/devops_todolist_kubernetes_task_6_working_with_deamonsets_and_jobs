@@ -5,7 +5,7 @@ metadata:
   namespace: mateapp
 spec:
   containers:
-  - name: busybox-testing
+  - name: busybox
     image: ikulyk404/busyboxplus:curl
     args:
     - sleep
