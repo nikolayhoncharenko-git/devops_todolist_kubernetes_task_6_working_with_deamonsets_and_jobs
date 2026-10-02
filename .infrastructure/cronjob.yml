@@ -18,7 +18,7 @@ spec:
             image: ikulyk404/busyboxplus:curl
             command: ["/bin/sh", "-c"]
             args: 
-            - curl http://todoapp-service:/api/health
+            - curl http://todoapp-service/api/health
             resources:
               requests:
                 cpu: "10m"
