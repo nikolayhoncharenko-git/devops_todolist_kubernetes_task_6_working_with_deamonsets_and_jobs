@@ -37,6 +37,7 @@ Check the logs for this pod:
 ```
 kubectl logs <pod-daemonset-name>
 ```
+The logs should show successful HTTP responses from curl commands
 
 To check the CronJob logs, select the name of the job created by the corresponding manifest, and run the command:
 ```
